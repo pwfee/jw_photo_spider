@@ -1,4 +1,4 @@
-# jw_photo_pacong
+# jw_photo_spider
 某教务利用cookie模拟登陆，获取大量证件照
 
 ## 使用方法
