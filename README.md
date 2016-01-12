@@ -23,7 +23,7 @@ $ python setup.py install
 ```
 2.修改py文件的cookie等参数
 
-3.
+3.新建pic文件夹并执行pacong.py
 ```bash
 $ mkdir pic 
 $ python pacong.py
