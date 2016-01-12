@@ -23,9 +23,8 @@ $ python setup.py install
 ```
 2.修改py文件的cookie等参数
 
-3.mkdir pic 
-
-4.
+3.
 ```bash
+$ mkdir pic 
 $ python pacong.py
 ```
