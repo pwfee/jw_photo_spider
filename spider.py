@@ -23,7 +23,7 @@ headers = {
 for id in range(start_id,end_id,step):
     str_id = str(id)
     pic_url='http://jw.xxx.edu.cn/academic/student/studentinfo/loadphoto_added.jsdo?primary=userid&kind=student&userid='+str_id
-    binary = requests.post(pic_url,headers=headers)#发送URL和header，并且返回binary
+    binary = requests.get(pic_url,headers=headers)#发送URL和header，并且返回binary
     if(binary.url == 'http://jw.xxx.edu.cn/academic/common/security/login.jsp'):#检测返回binary的URL是否为cookie失败后的登陆页面
         print 'Cookie无效,请更换Cookie！'
         sys.exit(0)
